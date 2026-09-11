@@ -1,0 +1,6 @@
+[
+  {"event_id":"evt-001","timestamp":"2026-09-10T08:10:00Z","host":"LAB-WS-01","user":"synthetic\\analyst","event_type":"scheduled_task","object_name":"SyntheticInventoryCheck","action":"create","signer_status":"trusted","parent_process":"services.exe"},
+  {"event_id":"evt-002","timestamp":"2026-09-10T08:20:00Z","host":"LAB-WS-02","user":"synthetic\\user1","event_type":"run_key","object_name":"HKCU\\Software\\SyntheticLab\\Run\\DemoUpdater","action":"modify","signer_status":"unsigned","parent_process":"powershell.exe"},
+  {"event_id":"evt-003","timestamp":"2026-09-10T08:25:00Z","host":"LAB-SRV-01","user":"synthetic\\svc-admin","event_type":"service","object_name":"SyntheticTelemetryService","action":"create","signer_status":"unsigned","parent_process":"cmd.exe"},
+  {"event_id":"evt-004","timestamp":"2026-09-10T08:30:00Z","host":"LAB-WS-03","user":"synthetic\\user2","event_type":"file","object_name":"C:\\Temp\\notes.txt","action":"create","signer_status":"unknown","parent_process":"explorer.exe"}
+]
